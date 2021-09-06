@@ -1,0 +1,212 @@
+body{
+    height: 100vh;
+}
+
+.all_content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+/*верх сайту*/
+.header{
+    width: 100%;
+    background-color: #dcdcdc;
+    display: inline-block;
+    height: 230px;
+    flex: 0 0 auto;
+
+}
+
+.header2{
+    max-width: 1000px;
+    display: flex;
+    padding: 0 10px;
+    margin: 0 auto;
+
+
+}
+
+#logo1{
+
+    padding-left: 100px;
+       }
+
+#logo1 img{
+    margin-top: 50px;
+}
+
+.numbers{
+
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-left: auto;
+
+
+
+
+}
+
+.numbers p a{
+    text-decoration: none;
+    color: #767676;
+}
+
+.numbers a:hover{
+    text-decoration:underline;
+    color: #767676;
+}
+.main{
+    /*flex: 1 0 auto;*/
+}
+
+/*------МЕНЮ -----*/
+.menu{
+    background-color: #777777;
+    height: 80px;
+    text-align: center;
+    margin-top: -15px;
+    }
+
+.menu ul{
+    list-style-type: none;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 0px;
+
+}
+
+.menu li{
+    display: inline-block;
+    color: #dddddd;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+
+
+}
+.menu a:link, a:visited{
+    color:#f3f3f3;
+    text-decoration: none;
+
+}
+
+.menu a:hover, a:active{
+    color:#f3f3f3;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/*-----SLIDER----*/
+
+
+
+.slider{
+    background-color: #f8f8f8;
+    height: 400px;
+    overflow: hidden;
+    }
+
+.slider img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -65px;
+
+}
+/*----- основний контент ----*/
+
+
+.content{
+    height: 1400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: start;
+
+}
+
+.news{
+    background-color: #777777;
+    width: 290px;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    margin-right: 50px;
+    padding-inline: 30px;
+    line-height: 22px;
+}
+
+.new p {
+    font-weight: bold;
+
+}
+.news i p {
+    margin-bottom: 5px;
+}
+
+.news a:link{
+    text-decoration-line: none;
+}
+
+.pixel{
+    width: 600px;
+    font-family: 'PT Sans', sans-serif;
+    padding: 20px;
+    color: #767676;
+}
+
+.pixel p{
+    text-align: justify;
+}
+
+/*------ ПІДВАЛ ------*/
+
+.footer{
+        background-color: #777777;
+        flex: 0 0 auto;
+        margin-top: auto;
+
+}
+
+
+.footer2{
+    height: 220px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fbfbfb;
+    font-family: 'PT Sans', sans-serif;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin: 0 auto;
+
+}
+
+#footer_left{
+    padding-left: 50px;
+    line-height: 22px;
+
+}
+
+.footer ul{
+    text-decoration: underline;
+    list-style-type: none;
+    line-height:30px;
+    font-weight: 400;
+    /*margin-left: 10px;*/
+}
+
+.footer_logo{
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    margin-top: -5px;
+}
+
+.footer_logo img {
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
